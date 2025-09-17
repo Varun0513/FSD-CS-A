@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <title>abes</title>
 <head>
     <meta charset="UTF-8">
@@ -15,4 +16,83 @@
     <h4>hi we are coder</h4>
     <h5>hi we are coder</h5>
 </body>
+</html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <style>
+        .container {
+            display: flex;
+          
+        }
+      .box1 {
+        width: 200px;
+        height: 50px;
+        box-sizing: border-box;
+        background-color: blue;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .container {
+        width: 100vh;
+         background-color: blue;
+        height: 100vh;
+       display: flex;
+      }
+      .header {
+        width: 100%;
+        height: 10%;
+     
+        background-color: blue;
+        border: 2px solid black;
+       
+        padding: 10px;
+      }
+      .nav {
+        width: 200px;
+        height: 50px;
+        box-sizing: border-box;
+        background-color: blue;
+        border: 2px solid black;
+         border-radius: 10px;
+        padding: 10px;
+      }
+      .menu {
+        width: 200px;
+        height: 50px;
+        box-sizing: border-box;
+        background-color: blue;
+        border: 2px solid black;
+         border-radius: 10px;
+        padding: 10px;
+      }
+      .sidebar {
+        width: 200px;
+        height: 50px;
+        box-sizing: border-box;
+        background-color: blue;
+        border: 2px solid black;
+         border-radius: 10px;
+        padding: 10px;
+      }
+      @media (max-width: 600px) {
+        .container {
+          flex-wrap: wrap;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container" style="order: 3">box1</div>
+      <div class="header" style="order: 2">box2</div>
+      <div class="nav"style="order: 4">box2</div>
+      <div class="menu"style="order: 1">box2</div>
+      <div class="sidebar"style="order: 5">box2</div>
+      <div class="footer"style="order: 6">box2</div>
+    </div>
+  </body>
 </html>
