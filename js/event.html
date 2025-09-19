@@ -13,14 +13,22 @@
         }
     </style>
 </head>
-<body>
-    <div id="adi">
-        <button onclick="abes()">Click here</button>
+<body id="ar">
+    
+        <button onclick="red()">RED</button>
+        <button onclick="green()">Green</button>
+        <button onclick="blue()">Blue</button>
         <p id="aa"></p>
-    </div>
+    
     <script>
-        function abes(){
-            document.getElementById("aa").innerHTML="<h1>Hello</h1>";
+        function red(){
+            document.getElementById("ar").style.backgroundColor="red";
+        }
+        function green(){
+            document.getElementById("ar").style.backgroundColor="green";
+        }
+        function blue(){
+            document.getElementById("ar").style.backgroundColor="blue";
         }
     </script>
 </body>
